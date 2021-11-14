@@ -100,6 +100,14 @@ img {
   margin: 20px 0;
 }
 
+.showcase-2 h1 {
+  font-size: 40px;
+}
+
+.showcase-2 p {
+  margin: 20px 0;
+}
+
 .showcase .grid {
   grid-template-columns: 55% 45%;
   gap: 30px;
@@ -112,39 +120,18 @@ img {
   overflow: visible;
 }
 
-/* Stats */
-.stats {
-  padding-top: 100px;
-}
-
-.stats-heading {
-  width: 100%;
-  padding: 0 15%;
-}
-
-.stats .grid h3 {
-  font-size: 30px;
-}
-
-.stats .grid p {
-  font-size: 20px;
-  font-weight: bold;
-}
-
 /* Utilities */
 .container {
-  max-width: 1100px;
+  max-width: 1300px;
   margin: 0 auto;
   overflow: auto;
   padding: 0 40px;
 }
 
 .card {
-  background-color: white;
   color: #333;
   border-radius: 5px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-  padding: 20px;
   margin: 10px;
   text-align: center;
 }
@@ -173,14 +160,9 @@ img {
 }
 
 .btn-secondary {
-  padding: 10px 10px;
-  margin-bottom: 10px;
-  cursor: pointer;
-  background-color: var(--secondary-color);
-  color: white;
-  border: none;
-  border-radius: 5px;
-  width: 100%;
+  background-color: transparent;
+  border: 1px #333 solid;
+  color: #333;
 }
 
 .flex {
