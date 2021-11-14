@@ -14,6 +14,10 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #333;
   line-height: 1.6;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .logo {
@@ -77,6 +81,15 @@ img {
   background-color: var(--primary-color);
   color: white;
   position: relative;
+  margin-bottom: 100px;
+}
+
+.showcase-2 {
+  font-family: Georgia, Cambria, Cochin, Times, "Times New Roman", serif;
+  height: 400px;
+  color: #333;
+  position: relative;
+  margin-bottom: 100px;
 }
 
 .showcase h1 {
@@ -93,43 +106,10 @@ img {
   overflow: visible;
 }
 
-.showcase-form {
-  position: relative;
-  top: 60px;
-  height: 360px;
-  width: 400px;
-  padding: 40px;
-  z-index: 100;
-  justify-self: flex-end;
-}
-
-.showcase-form .form-control {
-  margin: 30px 0;
-}
-
-.showcase-form input[type="text"],
-.showcase-form input[type="email"],
-.showcase-form input[type="password"] {
-  border: 0px;
-  border-bottom: 1px #b4becb solid;
-  outline: none;
-  width: 100%;
-  padding: 3px;
-  font-size: 16px;
-}
-
-.or {
-  font-size: 15px;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.btn-primary {
-  width: 100%;
-}
-
-.create {
-  border-bottom: 2px var(--primary-color) solid;
+.showcase-2 .grid {
+  grid-template-columns: 45% 55%;
+  gap: 30px;
+  overflow: visible;
 }
 
 /* Stats */
@@ -162,7 +142,7 @@ img {
 .card {
   background-color: white;
   color: #333;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
   margin: 10px;
