@@ -79,7 +79,7 @@ img {
 .showcase {
   font-family: Georgia, Cambria, Cochin, Times, "Times New Roman", serif;
   height: 400px;
-  background: url("../images/huge servers.jpg"), rgba(0, 0, 0, 0.667);
+  background: url("../images/teamwork.jpg"), rgba(0, 0, 0, 0.667);
   background-blend-mode: overlay;
   background-size: cover;
   background-repeat: no-repeat;
@@ -230,6 +230,47 @@ img {
   border: 0px;
 }
 
+/* footer */
+.footLi {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 30%;
+  overflow: hidden;
+}
+
+.footUl {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-content: center;
+  justify-content: left;
+}
+
+.footer-content {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.footer-content h2 {
+  font-size: 15px;
+}
+
+.navUl {
+  display: flex;
+  flex-direction: row;
+}
+
+.navLi {
+  padding: 10px;
+  margin: 10px;
+}
+
 /* Tablets and under */
 @media (max-width: 760px) {
   .grid,
@@ -254,6 +295,23 @@ img {
   .showcase-form {
     justify-self: center;
     margin: auto;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footUl {
+    justify-content: space-between;
+  }
+
+  .footer-content h2 {
+    text-align: center;
+  }
+
+  .footer-content h3 {
+    text-align: center;
   }
 }
 
@@ -283,6 +341,15 @@ img {
 
   .navbar a {
     margin: 0px;
+  }
+
+  .navLi {
+    padding: 10px;
+    margin: 0px;
+  }
+
+  .footer-content h3 {
+    text-align: center;
   }
 }
 
@@ -320,5 +387,14 @@ img {
 
   .alone a {
     font-size: x-small;
+  }
+
+  .navLi {
+    padding: 5px;
+    margin: 0px;
+  }
+
+  .footer-content h3 {
+    text-align: center;
   }
 }
