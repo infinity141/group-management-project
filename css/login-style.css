@@ -98,16 +98,11 @@ img {
 .showcase-form {
   position: relative;
   top: 60px;
-  height: 380px;
   width: 100%;
   padding: 40px;
   z-index: 100;
   justify-self: flex-end;
   max-width: 400px;
-}
-
-.signup-add {
-  height: 475px;
 }
 
 .btn-add {
@@ -159,7 +154,28 @@ img {
 }
 
 .create {
-  border-bottom: 2px var(--primary-color) solid;
+  padding: 3px 0;
+  color: #555;
+  border-bottom: 2px #555 dotted;
+}
+
+.agreeing {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.agreeing input[type="checkbox"] {
+  margin-right: 10px;
+}
+.agreeing span {
+  user-select: none;
+  font-size: 15px;
+}
+
+.agreeing span a {
+  color: #1144ff;
 }
 
 /* Utilities */
@@ -253,7 +269,7 @@ img {
   }
 }
 
-/* Mobile and under */
+/* Mobile midium */
 @media (max-width: 650px) {
   .navbar {
     height: 110px;
@@ -266,5 +282,41 @@ img {
   .navbar ul {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .logo {
+    font-size: 30px;
+    margin-top: auto;
+  }
+
+  .navbar a {
+    margin: 0px;
+  }
+}
+
+/* Mobile midium */
+@media (max-width: 346px) {
+  .navbar {
+    height: 110px;
+  }
+
+  .navbar .flex {
+    flex-direction: column;
+  }
+
+  .navbar ul {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .logo {
+    font-size: 29px;
+    margin-top: auto;
+  }
+
+  .navbar a {
+    margin: 0px;
+    padding: 5px;
+    font-size: small;
   }
 }

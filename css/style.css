@@ -129,7 +129,7 @@ img {
 
 .showcase-2 p {
   margin: 20px 0;
-  font-weight: bold;
+  font-size: 17px;
 }
 
 .showcase .grid {
@@ -274,5 +274,51 @@ img {
 
   .alone {
     margin-left: -3px;
+  }
+
+  .logo {
+    font-size: 30px;
+    margin-top: auto;
+  }
+
+  .navbar a {
+    margin: 0px;
+  }
+}
+
+/* Mobile midium */
+@media (max-width: 346px) {
+  .navbar {
+    height: 110px;
+  }
+
+  .navbar .flex {
+    flex-direction: column;
+  }
+
+  .navbar ul {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .logo {
+    font-size: 29px;
+    margin-top: auto;
+  }
+
+  .navbar a {
+    margin: 0px;
+    padding: 5px;
+    font-size: small;
+  }
+
+  .alone {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+  }
+
+  .alone a {
+    font-size: x-small;
   }
 }
