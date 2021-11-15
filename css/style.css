@@ -254,7 +254,6 @@ img {
   background-color: rgba(0, 0, 0, 0.1);
   color: black;
   justify-content: space-between;
-  align-content: center;
 }
 
 .footer-content h2 {
@@ -269,6 +268,13 @@ img {
 .navLi {
   padding: 10px;
   margin: 10px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 /* Tablets and under */
