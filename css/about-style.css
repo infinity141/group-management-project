@@ -14,10 +14,7 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #333;
   line-height: 1.6;
-  background-size: cover;
-  background-position: right;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-color: #f0f0f0;
 }
 
 .logo {
@@ -105,6 +102,7 @@ img {
   overflow: auto;
   padding: 20px;
   margin-bottom: 100px;
+  height: 300px;
 }
 
 .image {
@@ -115,7 +113,6 @@ img {
   border-radius: 20px;
   overflow: auto;
 }
-
 /* footer */
 .footLi {
   width: 30px;
